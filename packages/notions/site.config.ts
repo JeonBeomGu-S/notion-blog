@@ -59,7 +59,7 @@ const CONFIG = {
     },
   },
   searchManager: {
-    google: "Q1Bav1At-K9niA9pM2HWt_E8s4d17CThq0EvCWS6RPk",
+    google: "1PEhFTh6camqDWo8kX4ikVogY8pRlxWDhtT3d4PHgew",
   },
   analytics: {
     google:
