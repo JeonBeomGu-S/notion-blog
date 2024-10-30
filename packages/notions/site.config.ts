@@ -4,6 +4,7 @@ const CONFIG = {
     age: "",
     profile: "",
   },
+  url: "https://blog.hansolbangul.com",
   metadata: {
     title: "Beom-log",
     description:
