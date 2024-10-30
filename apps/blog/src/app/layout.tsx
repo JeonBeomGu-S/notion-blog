@@ -1,28 +1,9 @@
 import "./globals.css";
 import NextQueryProvider from "@app/NextQueryProvider";
 import BodyLayout from "@app/BodyLayout";
+import CONFIG from "@blog/notions/site.config";
 
-export const metadata = {
-  title: "Beom-log",
-  description:
-    "Beom-log는 백엔드 개발과 관련된 실무 예제, SQL, CS 기초 지식을 나누고 있습니다. 성장하는 개발자로서, 유익한 정보를 꾸준히 공유하겠습니다!",
-  keywords: "블로그, 개발, 로고, 백엔드, 웹 개발, Node.js, Express.js, SQL, CS",
-  openGraph: {
-    title: "Beom-log",
-    description:
-      "Beom-log는 백엔드 개발과 관련된 실무 예제, SQL, CS 기초 지식을 나누고 있습니다. 성장하는 개발자로서, 유익한 정보를 꾸준히 공유하겠습니다!",
-    url: "https://beomgu.uddangtangtang.com/",
-    type: "website",
-    images: [
-      {
-        url: "https://beomgu.uddangtangtang.com/main_img.webp",
-        alt: "Beom-log thumbnail",
-        width: 1200,
-        height: 630,
-      },
-    ],
-  },
-};
+export const metadata = CONFIG.metadata;
 
 export default function RootLayout({
   children,
@@ -32,7 +13,19 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        
+        {CONFIG.searchManager.google && (
+          <meta
+            name="google-site-verification"
+            content={CONFIG.searchManager.google}
+          />
+        )}
+        {CONFIG.analytics.google && (
+          <script
+            async
+            src={CONFIG.analytics.google}
+            crossOrigin="anonymous"
+          ></script>
+        )}
       </head>
       <body>
         <div
