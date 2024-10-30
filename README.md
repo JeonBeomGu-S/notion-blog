@@ -2,7 +2,7 @@
 
 이 리포지토리는 `Turborepo`와 `pnpm`을 사용하여 두 개의 블로그 플랫폼을 관리하고 배포하는 모노레포 구조를 가지고 있습니다:
 
-1. **한솔방울의 기술 블로그**: [hansolbangul.com](https://hansolbangul.com)
+1. **범로그**: [beomgu.uddangtangtang.com](https://beomgu.uddangtangtang.com/)
 2. **우당탕탕 도서관 블로그**: [blog.uddangtangtang.com](https://blog.uddangtangtang.com)
 
 ## 개요

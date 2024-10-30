@@ -1,5 +1,5 @@
 module.exports = {
-  siteUrl: 'https://blog.hansolbangul.com',
+  siteUrl: 'https://beomgu.uddangtangtang.com/',
   generateRobotsTxt: true,
   sitemapSize: 7000,
   generateIndexSitemap: false

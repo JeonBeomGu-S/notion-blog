@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://blog.hansolbangul.com
+Host: https://beomgu.uddangtangtang.com/
 
 # Sitemaps
-Sitemap: https://blog.hansolbangul.com/sitemap.xml
+Sitemap: https://beomgu.uddangtangtang.com/sitemap.xml

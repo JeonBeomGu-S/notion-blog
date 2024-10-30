@@ -11,11 +11,11 @@ export const metadata = {
     title: "Beom-log",
     description:
       "Beom-log는 백엔드 개발과 관련된 실무 예제, SQL, CS 기초 지식을 나누고 있습니다. 성장하는 개발자로서, 유익한 정보를 꾸준히 공유하겠습니다!",
-    url: "https://blog.hansolbangul.com",
+    url: "https://beomgu.uddangtangtang.com/",
     type: "website",
     images: [
       {
-        url: "https://blog.hansolbangul.com/main_img.webp",
+        url: "https://beomgu.uddangtangtang.com/main_img.webp",
         alt: "Beom-log thumbnail",
         width: 1200,
         height: 630,
